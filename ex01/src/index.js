@@ -1,7 +1,7 @@
 let myArr = [];
 
 function* multiplication(x) {
-    for(var i = 0; i < x - 1; i++) {
+    for(var i = 0; i < x ; i++) {
         x *= 2;
         myArr.push(x);
         yield x;
