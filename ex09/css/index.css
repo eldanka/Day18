@@ -1,0 +1,118 @@
+
+header {
+    background-color: #35424a;
+    display:block;
+    width: 100%;
+    height: auto;
+    float: left;
+    border-bottom: 15px solid tomato;
+}
+.container {
+    width: 1280px;
+    max-width: 100%;
+}
+header #branding h1 span.highlight {
+color: orangered;
+}
+header #branding h1 {
+    color: white;
+    font-size: 3vw;
+    position: relative;
+    top: 2vw;
+    left: 5vw;
+}
+header nav{
+    float: right;
+}
+header nav ul{
+    padding: 0px;
+    list-style: none;
+    display: flex;
+    color: white;
+    margin-right: 0px;
+    padding-right: 1vw;
+}
+header nav ul li.current a {
+    color:orangered;  
+    text-decoration: none;
+    font-size: 2vw;
+}
+header nav ul li a{
+    padding-left: 1vw;
+    text-decoration: none;
+    color: white;
+    font-size: 2vw;
+}
+#showcase {
+    width: 100%;
+height: 580px;
+background-image: url(../img/gigi-logo.png);
+background-position: top center;
+background-repeat: no-repeat;
+background-size: cover;
+display: block;
+float: left;
+position: relative;
+text-align: center;
+color: #fff;
+    filter: grayscale(100%);
+    background-color: rgba(0, 0, 0, 0.7);
+}
+#showcase .container h1{
+    font-size: 50px;
+    font-weight: bold;
+    position: relative;
+    top: 5vw;
+}
+#showcase .container p{
+    font-size: 25px;
+}
+#newsletter {
+    background-color: #35424a;
+    display:block;
+    width: 100%;
+    height: auto;
+    float: left;
+}
+#newsletter h1 {
+    float: left;
+    color:white;
+}
+#newsletter form {
+    float: right;
+}
+#newsletter form input {
+    height: 45px;
+    width: 250px;
+    background-color: white;
+}
+#newsletter for button {
+    height: 45px;
+    color: white;
+    background-color: orangered;
+    cursor: pointer;
+}
+#boxes {
+    display: block;
+    width: 100%;
+    height: auto;
+    float:left;
+    background-color: white;
+}
+#boxes .box {
+    float: left;
+    text-align: center;
+    width: 33%;
+}
+#boxes .box img {
+    width: 150px;
+    height: 150px;
+}
+footer {
+    display: block;
+    width: 100%;
+    height: auto;
+    float: left;
+    color: white;
+    background-color: orangered;
+}
