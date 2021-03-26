@@ -5,31 +5,25 @@ function* myGenerator() {
 }
 
 function* insideGenerator1() {
-    var x ;
-    var a = 0;
+    var x = 0;
     for(var i = 0; i < 5; i++) {
-        a ++;
-        x = a;
+        x++;
         yield x;
     }
 }
 
 function* insideGenerator2() {
-    var x ;
-    var a = 9;
+    var x = 9;
     for(var i = 0; i < 6; i++) {
-        a ++;
-        x = a;
+        x++;
         yield x;
     }
 }
 
 function* insideGenerator3() {
-    var x ;
-    var a = 5;
+    var x = 5;
     for(var i = 0; i < 4; i++) {
-        a ++;
-        x = a;
+        x++;
         yield x;
     }
 }
